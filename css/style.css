@@ -1,0 +1,341 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+ul , ol{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+.buttonMain{
+    border-radius: 30px !important;
+    -webkit-border-radius: 30px !important;
+    -moz-border-radius: 30px !important;
+    -ms-border-radius: 30px !important;
+    -o-border-radius: 30px !important;
+}
+
+.buttonMain a{
+    padding: 6px 24px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.nbColor{
+   background-color: #F0FFF0;
+}
+/*==========================Css Common End=======================*/
+
+/* =====================================Navbar Start===================================== */
+
+/* =====================================Navbar End===================================== */
+
+
+/* =====================================Banner Start===================================== */
+
+.banner{
+    padding-top: 65px;
+}
+
+.banner h4{
+    color: #FD511A;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.banner h1{
+    font-size: 48px;
+    font-weight: 700;
+    width: 405px;
+    line-height: 70px;
+}
+
+.banner h1 span{
+    color: #21B573;
+}
+
+.banner p{
+    width: 403px;
+    font-weight: 400;
+    font-size: 16;
+    line-height: 36px;
+}
+
+.banner_btn{
+    border: 1px solid #000000;
+    box-shadow: rgba(50, 50, 93, 0.144) 0px 13px 27px -5px, rgba(0, 0, 0, 0.233) 0px 8px 16px -8px;
+}
+/* =====================================Banner End===================================== */
+
+/* =====================================Box Start===================================== */
+.box{
+    width: 270px;
+    height: 270px;
+    background-color: #F8FFFB;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+.box .pic{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.box .picBox{
+    width: 80px;
+    height: 80px;
+   
+}
+
+.box h3{
+    font-size: 24px;
+    font-weight: 600;
+    color: #413960;
+    text-align: center;
+
+}
+
+.box p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #585859;
+    text-align: center;
+}
+
+.box:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: #fff;
+}
+
+
+@media all and (max-width: 600px) {
+  .box h3{
+    font-size: 14px;
+  }
+  .box p{
+    font-size: 10px;
+  }
+  .box{
+    height: 200px;
+  }
+  .box .picBox{
+    width: 50px;
+    height: 50px;
+  }
+  }
+
+  @media all and (max-width: 768px) {
+    .box h3{
+      font-size: 14px;
+    }
+    .box p{
+      font-size: 10px;
+    }
+    .box{
+      height: 200px;
+    }
+    .box .picBox{
+      width: 50px;
+      height: 50px;
+    }
+    .banPic{
+    margin-top: 30px;
+
+    }
+ /*======Card Start=========*/
+ .cardHeader h2{
+  font-size: 24px !important;
+  font-weight: 600 !important;
+ }
+ .cardImg{
+  width: 120px !important;
+  height: 80px !important;
+}
+.card h5{
+  font-size: 32px !important;
+  font-weight: 600 !important;
+  color: #413960 !important;
+}
+.card h5{
+  font-size: 18px !important;
+  font-weight: 400 !important;
+  color: #413960 !important;
+}
+.card p{
+  font-size: 12px !important;
+  font-weight: 400 !important;
+  color: #585859 !important;
+}
+.cardBtn a{
+  padding: 2px 8px !important;
+  font-size: 10px !important;
+  font-weight: 400 !important; 
+  color: #fff !important;
+  }
+
+  .allCard{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .lasttitle img{
+    width: 10px;
+    height: 10px;
+  }
+  .footer .row p{
+   text-align: center;
+  }
+
+   /*======Card End=========*/
+    }
+  
+/* =====================================Box End===================================== */
+
+/* =====================================Card Section Start===================================== */
+.secandPart{
+  background-color: #f1f1f1;
+}
+
+.card{
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  border: none;
+}
+.cardHeader{
+  margin: 30px 0px;
+}
+
+.cardHeader h2{
+  font-size: 36px;
+  font-weight: 700;
+  color: #413960;
+  text-align: center;
+}
+
+.cardImg{
+  width: 280px;
+  height: 180px;
+}
+
+.card .cardImg{
+  margin: 0 auto;
+  margin-top: 20px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.card .lasttitle{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 34px;
+}
+
+.card h5{
+  font-size: 24px;
+  font-weight: 600;
+  color: #413960;
+}
+
+.card p{
+  font-size: 16px;
+  font-weight: 400;
+  color: #585859;
+}
+.cardBtn{
+   background-color: #21B573;
+   border-radius: 33px;
+   -webkit-border-radius: 33px;
+   -moz-border-radius: 33px;
+   -ms-border-radius: 33px;
+   -o-border-radius: 33px;
+}
+.cardBtn a{
+padding: 8px 28px;
+font-size: 16px;
+font-weight: 400;
+color: #fff !important;
+}
+
+.card .lasttitle p{
+  color: #585859;
+}
+
+.card:hover{
+  box-shadow: rgba(50, 50, 93, 0.144) 0px 13px 27px -5px, rgba(0, 0, 0, 0.233) 0px 8px 16px -8px;
+}
+
+.allCard{
+  display: flex;
+  justify-content: space-between;
+}
+/* =====================================Card Section End===================================== */
+
+/* =====================================Testimonial Section start===================================== */
+
+.mainTest .img img{
+  width: 120px;
+  height: 120px;
+  margin-left: 40px;
+}
+
+.mainTest .text{
+  width: 553px;
+  margin-left: 52px;
+}
+.mainTest{
+  display: flex;
+  align-items: center !important;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+/* =====================================Testimonial Section End===================================== */
+
+
+
+.footer{
+  margin-top: 30px;
+  background-color: #282531;
+  padding-top: 30px;
+}
+
+.footer ul li a{
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.footer ul h3{
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 55px;
+}
+
+.footer .row p{
+  color: #fff;
+  margin-top: 55px;
+}
+
+.footer .list{
+  display: flex;
+  justify-content: space-around;
+}
